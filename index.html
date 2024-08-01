@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexi-Guide Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="overlay">
+            <a href="#about-section" class="bookmark">About</a>
+            <a href="#chat-section" class="bookmark">Go to Chatbot</a>
+            
+            
+        </div>
+    </header>
+    <section id="about-section" class="about-section">
+        <h2>About Lexi-Guide</h2>
+        <p>Welcome to Lexi-Guide, your digital assistant for all things legal. Our chatbot is designed to provide you with quick, reliable information about various legal topics. Whether you need help understanding your rights, need guidance on legal procedures, or just have a simple question about the law, Lexi-Guide is here to help.</p>
+        <p>Lexi-Guide leverages advanced artificial intelligence to offer accurate and up-to-date legal information. Our mission is to make legal knowledge accessible to everyone, breaking down complex legal jargon into simple, easy-to-understand language. We believe that everyone should have access to legal information, regardless of their background or circumstances.</p>
+        <p>Our Features Include:</p>
+        <ul>
+            <li><strong>Instant Legal Answers:</strong> Get quick answers to common legal questions.</li>
+            <li><strong>24/7 Availability:</strong> Lexi-Guide is available round-the-clock to assist you.</li>
+            <li><strong>Privacy & Security:</strong> Your interactions with Lexi-Guide are private and secure.</li>
+            <li><strong>Comprehensive Database:</strong> Access a wide range of legal topics and information.</li>
+        </ul>
+        <p>Lexi-Guide is constantly learning and evolving to better serve you. Our team of legal experts regularly updates our database to ensure you receive the most accurate and relevant information.</p>
+        <p>Thank you for choosing Lexi-Guide. We are here to empower you with the knowledge you need to navigate the legal landscape confidently.</p>
+
+    </section>
+    <div class="container" id="chat-section">
+        <div class="info-container">
+            <h1>Lexi Guide</h1>
+            <img src="logo.jpeg" alt="Lexi Guide Logo" class="logo">
+            <p>With Lexi at your side, knowledge amplified..</p>
+        </div>
+        <div class="chat-container">
+            <div id="chat-window">
+                <div id="chat-output"></div>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" id="user-input" placeholder="Type your message here..." />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="chat.js"></script>
+</body>
+</html>
+
